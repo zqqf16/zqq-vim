@@ -8,7 +8,7 @@ syntax on
 
 " 配色方案
 colorscheme lucius
-let lucius_style = 'dark'
+LuciusDark
 
 " NERDTree 
 let NERDTreeWinPos = "left"
