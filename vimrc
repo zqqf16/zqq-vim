@@ -18,16 +18,11 @@ set number
 " 高亮显示结果
 set hlsearch
 
-" 标尺
-set cc=80
-
 " 缩进
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 filetype plugin indent on
-
-" jquery
 
 " 字体
 set guifont=Ubuntu\ Mono\ 14 
@@ -37,7 +32,6 @@ set guifont=Ubuntu\ Mono\ 14
     let Tlist_Exit_OnlyWindow = 1          "如果taglist是最后一个窗口，则退出vim
     let Tlist_Use_Right_Window = 1         "在右侧窗口中显示taglist
     let Tlist_GainFocus_On_ToggleOpen = 1  "打开taglist时，光标保留在taglist窗口
-    let Tlist_Ctags_Cmd='/opt/local/bin/ctags'  "设置ctags命令的位置
 	nnoremap <silent> <F8> :TlistToggle<CR>
 "}
 
