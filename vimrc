@@ -1,11 +1,14 @@
+" pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
+
 " 语法高亮
 syntax enable
 syntax on
 
 " 配色方案
-colorscheme desert
+colorscheme lucius
+let lucius_style = 'dark'
 
 " NERDTree 
 let NERDTreeWinPos = "left"
