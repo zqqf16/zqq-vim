@@ -2,4 +2,4 @@
 
 1. ln -s .vim/vimrc ~/.vimrc
 
-2. ln -s .vim/Inconsolata-dz-Powerline.otf ~/.fonts/Inconsolata-dz-Powerline.otf
+2. ln -s .vim/UbuntuMono-R-Powerline.ttf ~/.fonts/UbuntuMono-R-Powerline.ttf
