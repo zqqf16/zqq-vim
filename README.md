@@ -21,6 +21,15 @@
 
 **安装步骤**
 
-1. 初始化vim插件：`git submodule init`，以及`git submodule update`
-2. 连接配置文件：ln -s .vim/vimrc ~/.vimrc
-3. 安装字体，解决Powerline乱码问题：ln -s .vim/Inconsolata-dz-Powerline.otf ~/.fonts/Inconsolata-dz-Powerline.otf
+1. 初始化vim插件：
+
+	git submodule init
+	git submodule update
+
+2. 创建配置文件链接：
+
+	ln -s .vim/vimrc ~/.vimrc
+
+3. 安装字体，解决Powerline乱码问题：
+
+	ln -s .vim/Inconsolata-dz-Powerline.otf ~/.fonts/Inconsolata-dz-Powerline.otf
