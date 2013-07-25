@@ -24,6 +24,7 @@
 1. 初始化vim插件：
 
 	git submodule init
+
 	git submodule update
 
 2. 创建配置文件链接：
