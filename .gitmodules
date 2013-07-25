@@ -4,15 +4,15 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
-[submodule "bundle/taglist"]
-	path = bundle/taglist
-	url = git://github.com/vim-scripts/taglist.vim.git
-[submodule "bundle/lucius"]
-	path = bundle/lucius
-	url = git://github.com/vim-scripts/Lucius.git
 [submodule "bundle/indent-python"]
 	path = bundle/indent-python
 	url = https://github.com/hynek/vim-python-pep8-indent.git
 [submodule "bundle/vim-powerline"]
 	path = bundle/vim-powerline
 	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "bundle/lucius"]
+	path = bundle/lucius
+	url = git@github.com:vim-scripts/Lucius.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = git@github.com:vim-scripts/taglist.vim.git
