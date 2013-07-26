@@ -16,3 +16,6 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = git@github.com:vim-scripts/taglist.vim.git
+[submodule "fonts"]
+	path = fonts
+	url = git@github.com:eugeneching/consolas-powerline-vim.git
