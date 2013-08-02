@@ -1,21 +1,21 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
-	url = git://github.com/tpope/vim-pathogen.git
+	url = https://github.com/tpope/vim-pathogen.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/indent-python"]
 	path = bundle/indent-python
 	url = https://github.com/hynek/vim-python-pep8-indent.git
 [submodule "bundle/vim-powerline"]
 	path = bundle/vim-powerline
-	url = git://github.com/Lokaltog/vim-powerline.git
+	url = https://github.com/Lokaltog/vim-powerline.git
 [submodule "bundle/lucius"]
 	path = bundle/lucius
-	url = git@github.com:vim-scripts/Lucius.git
+	url = https://github.com/vim-scripts/Lucius.git
 [submodule "bundle/taglist"]
 	path = bundle/taglist
-	url = git@github.com:vim-scripts/taglist.vim.git
+	url = https://github.com/vim-scripts/taglist.vim.git
 [submodule "fonts"]
 	path = fonts
-	url = git@github.com:eugeneching/consolas-powerline-vim.git
+	url = https://github.com/eugeneching/consolas-powerline-vim.git
