@@ -13,6 +13,7 @@ LuciusDark
 " NERDTree 
 let NERDTreeWinPos = "left"
 nnoremap <silent> <F7> :NERDTreeToggle<CR>
+nnoremap <silent> wm :NERDTreeToggle<CR>
 
 
 " 显示行号
@@ -28,7 +29,7 @@ set shiftwidth=4
 filetype plugin indent on
 
 " 字体
-set guifont=Ubuntu\ Mono\ 14 
+set guifont=Monaco:h14
 
 "taglist{
     let Tlist_Show_One_File = 1            "只显示当前文件的taglist，默认是显示多个
@@ -36,6 +37,7 @@ set guifont=Ubuntu\ Mono\ 14
     let Tlist_Use_Right_Window = 1         "在右侧窗口中显示taglist
     let Tlist_GainFocus_On_ToggleOpen = 1  "打开taglist时，光标保留在taglist窗口
 	nnoremap <silent> <F8> :TlistToggle<CR>
+	nnoremap <silent> wl :TlistToggle<CR>
 "}
 
 "powerline {
