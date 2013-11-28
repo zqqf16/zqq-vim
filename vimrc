@@ -32,6 +32,10 @@ filetype plugin indent on
 set guifont=Monaco:h14
 
 "taglist{
+	if has('mac')
+		"exctags
+		let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
+	endif
     let Tlist_Show_One_File = 1            "只显示当前文件的taglist，默认是显示多个
     let Tlist_Exit_OnlyWindow = 1          "如果taglist是最后一个窗口，则退出vim
     let Tlist_Use_Right_Window = 1         "在右侧窗口中显示taglist
