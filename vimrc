@@ -7,8 +7,8 @@ syntax enable
 syntax on
 
 " 配色方案
-colorscheme lucius
-LuciusDark
+set background=dark
+colorscheme solarized
 
 " NERDTree 
 let NERDTreeWinPos = "left"
