@@ -9,6 +9,7 @@ syntax on
 " 配色方案
 set background=dark
 colorscheme solarized
+let g:solarized_termcolors=256
 
 " NERDTree 
 let NERDTreeWinPos = "left"
